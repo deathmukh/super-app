@@ -3,6 +3,9 @@
     flex-direction: column;
     align-items: left;
     font-family: 'Roboto';
+    background-image: url("/public/images/image.png");
+    width: 50vw;
+    height: 100vh;
 }
 
 .content {

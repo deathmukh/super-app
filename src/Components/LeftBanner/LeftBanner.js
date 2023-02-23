@@ -8,7 +8,7 @@ export default function LeftBanner() {
         <p className={styles.que}>Already have an account? </p>
         <button className={styles.loginBtn}>LOGIN</button>
       </div>
-      <img className={styles.img} src='images/image.png' alt='' />
+      {/* <img className={styles.img} src='images/image.png' alt='' /> */}
       <p className={styles.discover}>Discover new things on Superapp</p>
     </div>
   )
