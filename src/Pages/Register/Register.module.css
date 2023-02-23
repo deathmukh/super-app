@@ -1,3 +1,18 @@
-.mainWrapper{
+.mainWrapper {
     display: flex;
+}
+
+@media (max-width: 500px) {
+    .mainWrapper {
+        flex-direction: column;
+    }
+
+    .leftBannerWrapper {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .registerFormWrapper {
+        flex-basis: 100%;
+    }
 }
