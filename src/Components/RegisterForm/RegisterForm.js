@@ -88,7 +88,7 @@ export default function RegisterForm() {
 
       <section className={styles.show}>
         <div className={styles.content}>
-          <article>
+          <article className={styles.formWrapper}>
             <h1 className={styles.header}>Super App</h1>
             <h3> Create your new account</h3>
             <p>Email  |  Google </p>
