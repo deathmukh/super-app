@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+.content {
+  display: flex;
+  align-items: center;
+  padding: 5rem 0.5rem;
+  color: #fff;
+  font-family: 'Roboto';
+}
+
+.content h1 {
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 34.72px;
+  margin-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+.header {
+  color: #72db73;
+  font-family: 'Single Day';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 139.69%;
+}
+
+.content p {
+  margin-bottom: 2rem;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1.8%;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#error-para {
+  margin-bottom: 0rem;
+  color: #f00000;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding-bottom: 2rem;
+}
+
+.form input {
+  background-color: #292929;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000;
+  padding: 0.8rem 1rem;
+  border-radius: 3.82px;
+  border: none;
+}
+
+.form p {
+  margin-bottom: 1rem;
+}
+
+#button {
+  background-color: #37CC8A;
+  font-weight: bold;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  transition: all .2s ease-in-out;
+  box-shadow: 0px 1px 0px 0px #00000075;
+}
+.check{
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+
+#button:hover {
+  background-color: #3eac73;
+  transform: scale(1.1);
+}
+
+.form small {
+  color: #7c7c7c;
+  text-align: center;
+  font-weight: 500;
+}
+
+.form small span {
+  color: #72db73;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  /* CSS for screens with a maximum width of 768px */
+  .content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  .content h1 {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 34.72px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+  }
+
+  .content p {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 99.19%;
+    letter-spacing: 0.018em;
+  }
+
+  .form {
+    padding: 1rem;
+  }
+
+  #button {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  /* CSS for screens with a maximum width of 480px */
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .form input {
+    font-size: 1rem;
+  }
+
+  #button {
+    font-size: 1.2rem;
+  }
+}
