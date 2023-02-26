@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './RegisterForm.module.css'
 import { useState, useEffect } from "react";
 
+
 export default function RegisterForm() {
   const initialValues = { name: "", username: "", email: "", mobile: "", checkbox: "" }
   const [formValues, setFormValues] = useState(initialValues);
@@ -148,6 +149,7 @@ export default function RegisterForm() {
                 style={{ backgroundColor: buttonColor }}
               >
                 SIGN UP
+                
               </button>
 
               <small>
